@@ -16,6 +16,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>spring-boot-rabbit-mq</name>
+	<url>https://github.com/AnanthaRajuC/spring-boot-rabbit-mq-producer</url>
 	<description>Demo project for Spring Boot RabbitMQ </description>
 
 	<!-- Start - Spring-Boot-Rabbit-MQ Project Owner -->
@@ -27,6 +28,21 @@
 		</developer>
 	</developers>
 	<!-- End - Spring-Boot-Rabbit-MQ Project Owner -->
+
+	<!-- Start - Source repository -->
+	<scm>
+		<connection>https://github.com/AnanthaRajuC/spring-boot-rabbit-mq-producer.git</connection>
+		<developerConnection>git@github.com:AnanthaRajuC/spring-boot-rabbit-mq-producer.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	<!-- End - Source repository -->
+
+	<!-- Start - Issue management -->
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/AnanthaRajuC/spring-boot-rabbit-mq-producer/issues</url>
+	</issueManagement>
+	<!-- End - Issue management -->
 
 	<properties>
 		<java.version>11</java.version>
