@@ -1,0 +1,29 @@
+# Common Application properties
+# https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
+
+# -------------------------------------------------------------------------------------------------------------
+# SWAGGER PROPERTIES
+# -------------------------------------------------------------------------------------------------------------
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+# -------------------------------------------------------------------------------------------------------------
+# SERVER PROPERTIES
+# -------------------------------------------------------------------------------------------------------------
+
+# EMBEDDED SERVER CONFIGURATION (ServerProperties)
+server:
+  # Server HTTP port
+  port: 8080
+  # When to include the "trace" attribute
+  error:
+    include-stacktrace: never
+
+rmq:
+  exchange: person1
+  queue: person_processer
+  routing-key: person_processer
